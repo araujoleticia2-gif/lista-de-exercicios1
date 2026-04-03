@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	float a, b, c, d, media;
+	
+	cin >> a >> b >> c >> d;
+	media = (a + b + c + d) / 4;
+	
+	cout << "media: " << media;
+	return 0;
+}
